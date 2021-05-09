@@ -1,0 +1,441 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+#Principal {
+    height: 1100px;
+    width: 800px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#NomeCompleto {
+    width: 800px;
+    height: 100px;
+    background-color: #b9fffa;
+    position: absolute;
+    z-index: 3;
+    margin-top: 80px;
+}
+
+#MeuNome {
+    height: 45px;
+    width: 450px;
+    background-color: #b9fffa;
+    margin-left: 300px;
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 17px;
+}
+
+#Idade_Nacionalidade_EstadoCivil {
+    height: 25px;
+    width: 400px;
+    margin-left: 320px;
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+    font-size: 20px;
+}
+
+#Posição {
+    height: 25px;
+    width: 400px;
+    margin-left: 320px;
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+    font-size: 20px;
+}
+
+#ColunaEsquerda {
+    height: 1100px;
+    width: 250px;
+    background-color: #feffa6;
+    float: left;
+    position: absolute;
+    z-index: 1;
+}
+
+#Imagem {
+    width: 180px;
+    height: 230px;
+    background-color: white;
+    position: absolute;
+    z-index: 4;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+#FormataçãoImagem {
+    width: 180px;
+    height: 230px;
+}
+
+#MinhaImagem {
+    width: 180px;
+    height: 230px;
+    object-fit: cover;
+}
+
+#Dados {
+    width: 250px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    z-index: 4;
+    margin-top: 280px;
+}
+
+.Icones {
+    height: 120px;
+    width: 40px;
+    float: left;
+}
+
+.FormataçãoIcones {
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.Informações {
+    height: 120px;
+    width: 210px;
+    float: right;
+}
+
+.FormataçãoInformações {
+    font-family: Arial;
+    font-size: 15px;
+}
+
+#Endereço {
+    padding: 8px;
+}
+
+#Telefone {
+    padding: 8px;
+}
+
+#Email {
+    padding: 8px;
+}
+
+#Software {
+    width: 250px;
+    height: 165px;
+    margin-top: 430px;
+}
+
+#Formatação_Título_Software {
+    height: 25px;
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+#FormataçãoSoftware {
+    height: 130px;
+    width: 240px;
+    padding-left: 10px;
+    line-height: 25px;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.PowerPoint{
+    width: 225px;
+    height: 12px;
+    padding: 1px;
+    background-color: gray;
+    display: flex;
+    --progress: 90;
+  }
+
+  .PowerPoint::before{
+    content: "";
+    background-color: white;
+    width: calc(var(--progress) * 1%);
+  }
+
+   .Excel{
+    width: 225px;
+    height: 12px;
+    padding: 1px;
+    background-color: gray;
+    display: flex;
+    --progress: 30;
+  }
+
+  .Excel::before{
+    content: "";
+    background-color: white;
+    width: calc(var(--progress) * 1%);
+  }
+
+  .Word{
+    width: 225px;
+    height: 12px;
+    padding: 1px;
+    background-color: gray;
+    display: flex;
+    --progress: 55;
+  }
+
+  .Word::before{
+    content: "";
+    background-color: white;
+    width: calc(var(--progress) * 1%);
+  }
+
+  #HabilidadesPessoais {
+      height: 245px;
+      width: 250px;
+      margin-top: 20px;
+  }
+
+  #Formatação_Título_Habilidades {
+    height: 25px;
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 22px;
+    padding-top: 10px;
+  }
+
+  #FormataçãoHabilidades {
+    height: 210px;
+    width: 240px;
+    padding-left: 10px;
+    line-height: 25px;
+    font-family: Arial;
+    font-size: 18px;
+  }
+
+  .Comunicação{
+    width: 225px;
+    height: 12px;
+    padding: 1px;
+    background-color: gray;
+    display: flex;
+    --progress: 65;
+  }
+
+  .Comunicação::before{
+    content: "";
+    background-color: white;
+    width: calc(var(--progress) * 1%);
+  }
+
+  .TrabalhoEmEquipe{
+    width: 225px;
+    height: 12px;
+    padding: 1px;
+    background-color: gray;
+    display: flex;
+    --progress: 90;
+  }
+
+  .TrabalhoEmEquipe::before{
+    content: "";
+    background-color: white;
+    width: calc(var(--progress) * 1%);
+  }
+
+  .Criatividade{
+    width: 225px;
+    height: 12px;
+    padding: 1px;
+    background-color: gray;
+    display: flex;
+    --progress: 75;
+  }
+
+  .Criatividade::before{
+    content: "";
+    background-color: white;
+    width: calc(var(--progress) * 1%);
+  }
+
+  .Liderança{
+    width: 225px;
+    height: 12px;
+    padding: 1px;
+    background-color: gray;
+    display: flex;
+    --progress: 40;
+  }
+
+  .Liderança::before{
+    content: "";
+    background-color: white;
+    width: calc(var(--progress) * 1%);
+  }
+
+  .Organização{
+    width: 225px;
+    height: 12px;
+    padding: 1px;
+    background-color: gray;
+    display: flex;
+    --progress: 95;
+  }
+
+  .Organização::before{
+    content: "";
+    background-color: white;
+    width: calc(var(--progress) * 1%);
+  }
+  
+  #Idiomas {
+    height: 165px;
+    width: 250px;
+    margin-top: 20px;
+  }
+
+  #Formatação_Título_Idioma {
+    height: 25px;
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 22px;
+    padding-top: 10px;
+  }
+
+  #FormataçãoIdiomas {
+    height: 130px;
+    width: 240px;
+    padding-left: 10px;
+    line-height: 25px;
+    font-family: Arial;
+    font-size: 18px;
+  }
+
+  .Inglês{
+    width: 225px;
+    height: 12px;
+    padding: 1px;
+    background-color: gray;
+    display: flex;
+    --progress: 30;
+  }
+
+  .Inglês::before{
+    content: "";
+    background-color: white;
+    width: calc(var(--progress) * 1%);
+  }
+
+  .Espanhol{
+    width: 225px;
+    height: 12px;
+    padding: 1px;
+    background-color: gray;
+    display: flex;
+    --progress: 10;
+  }
+
+  .Espanhol::before{
+    content: "";
+    background-color: white;
+    width: calc(var(--progress) * 1%);
+  }
+
+#ColunaDireita {
+    height: 1100px;
+    width: 550px;
+    background-color: white;
+    float: right;
+    position: absolute;
+    z-index: 2;
+    margin-left: 250px;
+    font-family: Arial;
+}
+
+#Educação {
+    height: 200px;
+    width: 550px;
+    margin-top: 220px;
+}
+
+.TítulosConteúdos {
+    height: 29px;
+    width: 550px;
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+#EducaçãoEsquerda {
+    height: 155px;
+    width: 150px;
+    float: left;
+    
+    font-size: 17px;
+}
+
+#SESI {
+    height: 41px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+#Redes {
+    height: 42px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+#DS {
+    height: 42px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+#EducaçãoDireita {
+    height: 155px;
+    width: 400px;
+    float: right;
+    line-height: 25px;
+}
+
+ul.MarcadorEducação {
+    list-style-type: circle;
+    list-style-position: inside;
+    font-size: 18px;
+}
+
+.Curso {
+    padding-left: 25px;
+}
+
+#Qualificações {
+    margin-top: 40px;
+    width: 550px;
+    height: 245px;
+}
+
+.MarcadorConteúdos {
+    list-style-type: circle;
+    list-style-position: inside;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-left: 15px;
+    line-height: 25px;
+}
+
+#HistóricoProfissional {
+    margin-top: 40px;
+    height: 100px;
+    width: 550px;
+}
